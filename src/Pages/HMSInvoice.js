@@ -234,9 +234,10 @@ const HMSInvoice = () => {
     pdf.setTextColor(0, 0, 0);
     pdf.setFontSize(16);
     pdf.setFont(undefined, "none");
-    pdf.addImage(callIcon, "PNG", 147, 24, 8, 8);
+    pdf.addImage(callIcon, "PNG", 144, 24, 13, 13);
 
-    pdf.text(156, 30, " +91 7204021703");
+    pdf.text(158, 30, "Huzaifa ");
+    pdf.text(158, 36, "7204021703");
     pdf.setFontSize(10);
     //input
     pdf.rect(12, 41, 95, 7);
