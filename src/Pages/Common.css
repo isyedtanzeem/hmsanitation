@@ -168,13 +168,13 @@
       
     }
     .inputAddress {
-      width: 100%;
+      width: 170px;
       padding: 8px;
       border: 1px solid #ccc;
       border-radius: 4px;
     }
     .input {
-      width: 60%;
+      width: 70%;
       padding: 8px;
       border: 1px solid #ccc;
       border-radius: 4px;
