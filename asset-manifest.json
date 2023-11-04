@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/hmsanitation/static/css/main.91dd69ff.css",
-    "main.js": "/hmsanitation/static/js/main.7a1d7381.js",
+    "main.js": "/hmsanitation/static/js/main.9a4469ff.js",
     "static/js/498.f36f39c6.chunk.js": "/hmsanitation/static/js/498.f36f39c6.chunk.js",
     "static/js/703.137d5965.chunk.js": "/hmsanitation/static/js/703.137d5965.chunk.js",
-    "static/js/258.db658dbb.chunk.js": "/hmsanitation/static/js/258.db658dbb.chunk.js",
+    "static/js/560.a489882e.chunk.js": "/hmsanitation/static/js/560.a489882e.chunk.js",
     "static/js/787.952c6357.chunk.js": "/hmsanitation/static/js/787.952c6357.chunk.js",
     "static/media/resix.png": "/hmsanitation/static/media/resix.dc29e2b746309d6678a7.png",
     "static/media/upi.png": "/hmsanitation/static/media/upi.e90caac56d6baa2c3bf3.png",
@@ -15,14 +15,14 @@
     "static/media/logo.svg": "/hmsanitation/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/hmsanitation/index.html",
     "main.91dd69ff.css.map": "/hmsanitation/static/css/main.91dd69ff.css.map",
-    "main.7a1d7381.js.map": "/hmsanitation/static/js/main.7a1d7381.js.map",
+    "main.9a4469ff.js.map": "/hmsanitation/static/js/main.9a4469ff.js.map",
     "498.f36f39c6.chunk.js.map": "/hmsanitation/static/js/498.f36f39c6.chunk.js.map",
     "703.137d5965.chunk.js.map": "/hmsanitation/static/js/703.137d5965.chunk.js.map",
-    "258.db658dbb.chunk.js.map": "/hmsanitation/static/js/258.db658dbb.chunk.js.map",
+    "560.a489882e.chunk.js.map": "/hmsanitation/static/js/560.a489882e.chunk.js.map",
     "787.952c6357.chunk.js.map": "/hmsanitation/static/js/787.952c6357.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91dd69ff.css",
-    "static/js/main.7a1d7381.js"
+    "static/js/main.9a4469ff.js"
   ]
 }
