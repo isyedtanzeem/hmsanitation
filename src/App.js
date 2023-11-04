@@ -8,13 +8,8 @@ import HMSInvoice from './Pages/HMSInvoice';
 function App() {
   return (
     <div className="App">
-      
-<Router>
-  <Routes>
-  <Route exact path="/HMS" element={<HMSInvoice />} />
-  <Route exact path="/" element={<HMSInvoice />} />
-  </Routes>
-</Router>
+      <HMSInvoice />
+
     </div>
   );
 }
