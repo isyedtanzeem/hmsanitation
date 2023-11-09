@@ -666,12 +666,14 @@ const HMSInvoice = () => {
 
     pdf.text(`For HM Sanitation`, 136, 244);
         pdf.addImage(Signature, "PNG", 140, 246, 50, 20);
-
-        pdf.addImage(upi, "PNG", 14, 255, 30, 14);
+        pdf.setTextColor(0,0,0);
+        pdf.setFont(undefined, "none");
+        const dateFormat = new Date(formData.dateOfDelivery).toLocaleDateString('en-GB');
+        pdf.text(`Date of Delivery: ${dateFormat} `, 14, 260);
 
     pdf.setFontSize(16);
    
-    pdf.setFont(undefined, "none");
+    
   
     pdf.text(`Payment Modes:`, 13, 244);
     pdf.setFontSize(14);
@@ -731,6 +733,20 @@ const HMSInvoice = () => {
               placeholder="Address"
               name="address"
               value={formData.address}
+              onChange={handleInputChange}
+            />
+          </div>
+        </div>
+        <div className="display-inline">
+          <div className="form-group">
+         <label>Date of Delivery</label> 
+            <input
+              className="input "
+              type="date"
+              id="dateOfDelivery"
+              placeholder="dateOfDelivery"
+              name="dateOfDelivery"
+              value={formData.dateOfDelivery}
               onChange={handleInputChange}
             />
           </div>
