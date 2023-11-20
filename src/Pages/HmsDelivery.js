@@ -222,7 +222,7 @@ const HMSDelivery = () => {
     pdf.setFontSize(15);
     pdf.setFont(undefined, "bold");
 
-    pdf.text(160, 18, "Invoice");
+    pdf.text(160, 18, "Delivery Note");
 
 
 
@@ -287,7 +287,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 73, 43, 7);
     pdf.text(`01`, 17, 78);
     pdf.text(`${formData.no1Item}`, 30, 78,);
-    pdf.text(`${formData.no1Rate}`, 124, 78,'right');
+    pdf.text(`${formData.no1Rate}`, 123, 78,'right');
     pdf.text(`${formData.qty1}`, 146, 78,'right');
     let amount1 = formData.no1Rate * formData.qty1;
     if (isNaN(amount1) || amount1 === 0) {
@@ -309,7 +309,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 80, 43, 7);
     pdf.text(`02`, 17, 85);
     pdf.text(`${formData.no2Item}`, 30, 85,);
-    pdf.text(`${formData.no2Rate}`, 124, 85,'right');
+    pdf.text(`${formData.no2Rate}`, 123, 85,'right');
     pdf.text(`${formData.qty2}`, 146, 85,'right');
 
     let amount2 = formData.no2Rate * formData.qty2;
@@ -325,7 +325,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 87, 43, 7);
     pdf.text(`03`, 17, 92);
     pdf.text(`${formData.no3Item}`, 30, 92,);
-    pdf.text(`${formData.no3Rate}`, 124, 92,'right');
+    pdf.text(`${formData.no3Rate}`, 123, 92,'right');
     pdf.text(`${formData.qty3}`, 146, 92,'right');
     let amount3 = formData.no3Rate * formData.qty3;
     if (isNaN(amount3) || amount3 === 0) {
@@ -341,7 +341,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 87, 43, 7);
     pdf.text(`04`, 17, 99);
     pdf.text(`${formData.no4Item}`, 30, 99);
-    pdf.text(`${formData.no4Rate}`, 124, 99,'right');
+    pdf.text(`${formData.no4Rate}`, 123, 99,'right');
     pdf.text(`${formData.qty4}`, 146, 99,'right');
     let amount4 = formData.no4Rate * formData.qty4;
     if (isNaN(amount4) || amount4 === 0) {
@@ -356,7 +356,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 87, 43, 7);
     pdf.text(`05`, 17, 106);
     pdf.text(`${formData.no5Item}`, 30, 106);
-    pdf.text(`${formData.no5Rate}`, 124, 106,'right');
+    pdf.text(`${formData.no5Rate}`, 123, 106,'right');
     pdf.text(`${formData.qty5}`, 146, 106,'right');
 
     let amount5 = formData.no5Rate * formData.qty5;
@@ -373,7 +373,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 94, 43, 7);
     pdf.text(`06`, 17, 113);
     pdf.text(`${formData.no6Item}`, 30, 113);
-    pdf.text(`${formData.no6Rate}`, 124, 113,'right');
+    pdf.text(`${formData.no6Rate}`, 123, 113,'right');
     pdf.text(`${formData.qty6}`, 146, 113,'right');
 
     let amount6 = formData.no6Rate * formData.qty6;
@@ -390,7 +390,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 101, 43, 7);
     pdf.text(`07`, 17, 120);
     pdf.text(`${formData.no7Item}`, 30, 120);
-    pdf.text(`${formData.no7Rate}`, 124, 120,'right');
+    pdf.text(`${formData.no7Rate}`, 123, 120,'right');
     pdf.text(`${formData.qty7}`, 146, 120,'right');
 
     let amount7 = formData.no7Rate * formData.qty7;
@@ -406,7 +406,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 108, 43, 7);
     pdf.text(`08`, 17, 127);
     pdf.text(`${formData.no8Item}`, 30, 127);
-    pdf.text(`${formData.no8Rate}`, 124, 127,'right');
+    pdf.text(`${formData.no8Rate}`, 123, 127,'right');
     pdf.text(`${formData.qty8}`, 146, 127,'right');
 
     let amount8 = formData.no8Rate * formData.qty8;
@@ -422,7 +422,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 115, 43, 7);
     pdf.text(`09`, 17, 134);
     pdf.text(`${formData.no9Item}`, 30, 134);
-    pdf.text(`${formData.no9Rate}`, 124, 134,'right');
+    pdf.text(`${formData.no9Rate}`, 123, 134,'right');
     pdf.text(`${formData.qty9}`, 146, 134,'right');
 
     let amount9 = formData.no9Rate * formData.qty9;
@@ -438,7 +438,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 122, 43, 7);
     pdf.text(`10`, 17, 141);
     pdf.text(`${formData.no10Item}`, 30, 141);
-    pdf.text(`${formData.no10Rate}`, 124, 141,'right');
+    pdf.text(`${formData.no10Rate}`, 123, 141,'right');
     pdf.text(`${formData.qty10}`, 146, 141,'right');
 
     let amount10 = formData.no10Rate * formData.qty10;
@@ -454,7 +454,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 129, 43, 7);
     pdf.text(`11`, 17, 148);
     pdf.text(`${formData.no11Item}`, 30, 148);
-    pdf.text(`${formData.no11Rate}`, 124, 148,'right');
+    pdf.text(`${formData.no11Rate}`, 123, 148,'right');
     pdf.text(`${formData.qty11}`, 146, 148,'right');
 
     let amount11 = formData.no11Rate * formData.qty11;
@@ -470,7 +470,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 136, 43, 7);
     pdf.text(`12`, 17, 155);
     pdf.text(`${formData.no12Item}`, 30, 155);
-    pdf.text(`${formData.no12Rate}`, 124, 155,'right');
+    pdf.text(`${formData.no12Rate}`, 123, 155,'right');
     pdf.text(`${formData.qty12}`, 146, 155,'right');
 
     let amount12 = formData.no12Rate * formData.qty12;
@@ -486,7 +486,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 143, 43, 7);
     pdf.text(`13`, 17, 162);
     pdf.text(`${formData.no13Item}`, 30, 162);
-    pdf.text(`${formData.no13Rate}`, 124, 162,'right');
+    pdf.text(`${formData.no13Rate}`, 123, 162,'right');
     pdf.text(`${formData.qty13}`, 146, 162,'right');
 
     let amount13 = formData.no13Rate * formData.qty13;
@@ -502,7 +502,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 150, 43, 7);
     pdf.text(`14`, 17, 169);
     pdf.text(`${formData.no14Item}`, 30, 169);
-    pdf.text(`${formData.no14Rate}`, 124, 169,'right');
+    pdf.text(`${formData.no14Rate}`, 123, 169,'right');
     pdf.text(`${formData.qty14}`, 146, 169,'right');
 
     let amount14 = formData.no14Rate * formData.qty14;
@@ -518,7 +518,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 157, 43, 7);
     pdf.text("15", 17, 176);
     pdf.text(`${formData.no15Item}`, 30, 176);
-    pdf.text(`${formData.no15Rate}`, 124, 176,'right');
+    pdf.text(`${formData.no15Rate}`, 123, 176,'right');
     pdf.text(`${formData.qty15}`, 146, 176,'right');
 
     let amount15 = formData.no15Rate * formData.qty15;
@@ -534,7 +534,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 164, 43, 7);
     pdf.text(`16`, 17, 183);
     pdf.text(`${formData.no16Item}`, 30, 183);
-    pdf.text(`${formData.no16Rate}`, 124, 183,'right');
+    pdf.text(`${formData.no16Rate}`, 123, 183,'right');
     pdf.text(`${formData.qty16}`, 146, 183,'right');
 
     let amount16 = formData.no16Rate * formData.qty16;
@@ -550,7 +550,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 171, 43, 7);
     pdf.text(`17`, 17, 190);
     pdf.text(`${formData.no17Item}`, 30, 190);
-    pdf.text(`${formData.no17Rate}`, 124, 190,'right');
+    pdf.text(`${formData.no17Rate}`, 123, 190,'right');
     pdf.text(`${formData.qty17}`, 146, 190,'right');
 
     let amount17 = formData.no17Rate * formData.qty17;
@@ -566,7 +566,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 178, 43, 7);
     pdf.text(`18`, 17, 197);
     pdf.text(`${formData.no18Item}`, 30, 197);
-    pdf.text(`${formData.no18Rate}`, 124, 197,'right');
+    pdf.text(`${formData.no18Rate}`, 123, 197,'right');
     pdf.text(`${formData.qty18}`, 146, 197,'right');
 
     let amount18 = formData.no18Rate * formData.qty18;
@@ -582,7 +582,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 185, 43, 7);
     pdf.text(`19`, 17, 204);
     pdf.text(`${formData.no19Item}`, 30, 204);
-    pdf.text(`${formData.no19Rate}`, 124, 204,'right');
+    pdf.text(`${formData.no19Rate}`, 123, 204,'right');
     pdf.text(`${formData.qty19}`, 146, 204,'right');
 
     let amount19 = formData.no19Rate * formData.qty19;
@@ -598,7 +598,7 @@ const HMSDelivery = () => {
     pdf.rect(154, 192, 43, 7);
     pdf.text(`20`, 17, 211);
     pdf.text(`${formData.no20Item}`, 30, 211);
-    pdf.text(`${formData.no20Rate}`, 124, 211,'right');
+    pdf.text(`${formData.no20Rate}`, 123, 211,'right');
     pdf.text(`${formData.qty20}`, 146, 211,'right');
 
     let amount20 = formData.no20Rate * formData.qty20;
@@ -694,7 +694,7 @@ const HMSDelivery = () => {
     const sanitizedName = formData.name.replace(/[^a-zA-Z0-9]/g, "");
     
 
-    const pdfName = `Hms_Invoice_${sanitizedName}.pdf`;
+    const pdfName = `Hms_Del_${sanitizedName}.pdf`;
     console.log(sanitizedName)
 
     pdf.save(pdfName);
