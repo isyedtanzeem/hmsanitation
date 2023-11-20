@@ -1,13 +1,13 @@
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
+import './Home.css';  // Import your CSS file
 
 function Home() {
+  return (
+    <div className="container">
+      <Link to='/HMSInvoice' className="button-fav blue-button">Invoice</Link>
+      <Link to='/HMSDelivery' className="button-fav red-button">Delivery</Link>
+    </div>
+  );
+}
 
-
-    return (
-      <div className="">
-          <Link to='/HMSInvoice' className="button-fav">Invoice</Link>
-      </div>
-    );
-  }
-  
-  export default Home;
+export default Home;

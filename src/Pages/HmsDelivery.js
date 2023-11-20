@@ -9,7 +9,7 @@ import callIcon from "./Images/callicon.png"; // Import your logo image
 import Signature from "./Images/signature.png";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-const HMSInvoice = () => {
+const HMSDelivery = () => {
   const [formData, setFormData] = useState({
     no1Rate: "",
     no2Rate: "",
@@ -264,7 +264,7 @@ const HMSInvoice = () => {
     //end of first layer
 
     pdf.setFontSize(12);
-    pdf.setFillColor(46,57,150);
+    pdf.setFillColor(255,0,0);
     pdf.rect(12, 66, 185, 7, "F");
 
     pdf.setFont(undefined, "bold");
@@ -703,7 +703,7 @@ const HMSInvoice = () => {
   return (
     <div className="form-container">
       {/* <h4><Link to="/">Go to Home</Link></h4> */}
-      <h4>HM Saniation Invoice</h4>
+      <h4>HM Saniation Delivery</h4>
 
       <form onSubmit={handleSubmit}>
         <div className="display-inline">
@@ -1531,4 +1531,4 @@ const HMSInvoice = () => {
   );
 };
 
-export default HMSInvoice;
+export default HMSDelivery;

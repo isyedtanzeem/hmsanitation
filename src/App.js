@@ -4,12 +4,22 @@ import './App.css';
 import HMSQuote from './Pages/HMSQuote';
 import Home from './Pages/Home';
 import HMSInvoice from './Pages/HMSInvoice';
+import HMSDelivery from './Pages/HmsDelivery';
 
 function App() {
   return (
     <div className="App">
-      <HMSInvoice />
-
+    
+      <Router>
+       
+       <Routes >
+         <Route path="/hmsanitation" element={<Home />} />
+         <Route path="/HmsInvoice" element={<HMSInvoice />} />
+         <Route path="/HmsDelivery" element={<HMSDelivery />} />
+        
+       </Routes>
+ 
+   </Router>
     </div>
   );
 }
