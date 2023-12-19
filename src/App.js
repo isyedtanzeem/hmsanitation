@@ -16,6 +16,7 @@ function App() {
          <Route path="/hmsanitation" element={<Home />} />
          <Route path="/HmsInvoice" element={<HMSInvoice />} />
          <Route path="/HmsDelivery" element={<HMSDelivery />} />
+         <Route path="/HmsQuote" element={<HMSQuote />} />
         
        </Routes>
  

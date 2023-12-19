@@ -6,6 +6,7 @@ function Home() {
     <div className="container">
       <Link to='/HMSInvoice' className="button-fav blue-button">Invoice</Link>
       <Link to='/HMSDelivery' className="button-fav red-button">Delivery</Link>
+      <Link to='/HmsQuote' className="button-fav red-button">Quotation</Link>
     </div>
   );
 }
